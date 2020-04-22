@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lv.ez.tests.AddToFavoritesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-22T19:42:57" hostname="DESKTOP-Q953U45" time="14.828">
+  <properties/>
+  <testcase name="addMultipleAddsFromListToFavoriteTest" classname="lv.ez.tests.AddToFavoritesTest" time="14.828"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Apr 22, 2020 10:42:57 PM java.util.prefs.WindowsPreferences <init>
+WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 34369
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Apr 22, 2020 10:43:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1587584583.332][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584583.433][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584583.624][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584583.771][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584583.872][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584583.973][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584584.074][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584584.176][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584584.276][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584584.378][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584584.479][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584584.661][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584584.762][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584584.863][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584584.964][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584585.066][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584585.167][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584585.871][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584586.121][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584586.223][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584586.324][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584586.475][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584586.578][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584586.715][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584587.183][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584587.290][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584589.693][SEVERE]: Timed out receiving message from renderer: 0.100
+[1587584589.867][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+</testsuite>
