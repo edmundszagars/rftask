@@ -4,6 +4,7 @@ import lv.ez.util.WebDriverUtil;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 
 public class BaseSearchPage extends BasePage {
@@ -16,6 +17,8 @@ public class BaseSearchPage extends BasePage {
     }
 
     public BaseSearchPage myFavoriteCounterShouldBe(String expectedAmount) {
+        WebDriverUtil.driverWait()
+                .until(ExpectedConditions.attributeToBeNotEmpty(myFavoritesCounterText, expectedAmount));
         Assert.assertEquals(myFavoritesCounterText.getText(), expectedAmount);
         return this;
     }

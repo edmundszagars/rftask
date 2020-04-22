@@ -24,5 +24,4 @@ public class AddToFavoritesTest extends BaseTest {
                 .addMultipleItemsToFavorites(5)
                 .myFavoriteCounterShouldBe("5");
     }
-
 }
